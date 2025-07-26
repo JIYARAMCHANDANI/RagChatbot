@@ -1,0 +1,26 @@
+# Python cached and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE settings (PyCharm)
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model binaries or large libraries (use Git LFS if needed)
+models/
+venv/Lib/site-packages/torch/lib/
+*.dll
+*.lib
+*.safetensors
+
+# Logs and temporary files
+*.log
+*.tmp
